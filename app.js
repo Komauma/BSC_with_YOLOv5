@@ -106,3 +106,4 @@ function postprocess(results) {
 
 // ページ読み込み時にモデルをロード
 loadModel();
+
