@@ -4,4 +4,6 @@ This repository is a quality evaluation system for badminton shuttles using YOLO
 
 # Demo
 
+Try executing the following URL in your browser.
+
 https://komauma.github.io/BSC_with_YOLOv5
