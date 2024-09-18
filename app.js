@@ -23,7 +23,7 @@ navigator.mediaDevices.getUserMedia({ video: true })
 async function loadModel() {
     feedback.innerText = "Loading model... Please wait.";
     try {
-        session = await ort.InferenceSession.create('model.onnx');
+        session = await ort.InferenceSession.create('best.onnx');
         feedback.innerText = "Model loaded. Click 'Start Detection' to begin.";
     } catch (err) {
         feedback.innerText = "Failed to load model: " + err.message;
