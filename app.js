@@ -23,7 +23,7 @@ navigator.mediaDevices.getUserMedia({ video: true })
 async function loadModel() {
     feedback.innerText = "Loading model... Please wait.";
     try {
-        session = await ort.InferenceSession.create('best.onnx');
+        session = await ort.InferenceSession.create('https://github.com/Komauma/BSC_with_YOLOv5/releases/download/v1.0/best.onnx');
         feedback.innerText = "Model loaded. Click 'Start Detection' to begin.";
     } catch (err) {
         feedback.innerText = "Failed to load model: " + err.message;
