@@ -8,6 +8,10 @@ const feedback = document.getElementById('feedback');
 let session;
 let isDetectionRunning = false;
 
+//CORSポリシー無効化
+Access-Control-Allow-Origin: *
+
+
 // ビデオの初期化
 navigator.mediaDevices.getUserMedia({ video: true })
     .then(stream => {
