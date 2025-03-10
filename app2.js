@@ -9,7 +9,7 @@ let session;
 let isDetectionRunning = false;
 
 //CORSポリシー無効化
-Access-Control-Allow-Origin: *
+//Access-Control-Allow-Origin: *
 
 
 // ビデオの初期化
