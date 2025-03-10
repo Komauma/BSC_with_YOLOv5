@@ -4,9 +4,10 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const feedback = document.getElementById('feedback');
 // or use CommonJS style import syntax
-const ort = require('onnxruntime-web/experimental');
+//const ort = require('onnxruntime-web/experimental');
 
-
+import ort from './onnxruntime-web/expermintal.js');
+someModule.doSomething();
 
 
 // モデルとセッションの変数
