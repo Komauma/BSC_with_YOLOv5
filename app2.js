@@ -3,6 +3,8 @@ const video = document.getElementById('video');
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const feedback = document.getElementById('feedback');
+const ort = require('onnxruntime-web');
+
 
 // モデルとセッションの変数
 let session;
